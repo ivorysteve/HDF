@@ -1,8 +1,8 @@
-## Hotel Deal Finder Project
+## Best Hotel Deal Finder Project
 
 **Author:** Stephen Gilbane (sgilbane@gmail.com)
 
-## Best Hotel Deal Problem Description
+## Problem Description
 
 Imagine you’re given a data file containing hotel deals, aggregated from participating hotels. Write an app that will find the best deal given a hotel name, check-in date, and duration of stay. Print the promo_txt value for the best deal, or “no deals available” if none exists. Consider the type and value of the deals, as well as whether they apply. Your solution will be evaluated based on correctness, performance, code design, and maintainability. 
 
