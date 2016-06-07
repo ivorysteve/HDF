@@ -1,4 +1,4 @@
-package com.stephengilbane.hotel;
+package com.stephengilbane.hotel.deals;
 
 /**
  *  Supported types of  hotel deals.

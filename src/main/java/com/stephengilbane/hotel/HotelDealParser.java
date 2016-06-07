@@ -14,6 +14,12 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.StringTokenizer;
 
+import com.stephengilbane.hotel.deals.Deal;
+import com.stephengilbane.hotel.deals.DealType;
+import com.stephengilbane.hotel.deals.FlatRebateDeal;
+import com.stephengilbane.hotel.deals.FlatRebateThreePlusDeal;
+import com.stephengilbane.hotel.deals.PercentRebateDeal;
+
 /**
  * From the problem statement:
  * 

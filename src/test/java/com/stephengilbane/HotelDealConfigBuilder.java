@@ -2,8 +2,8 @@ package com.stephengilbane;
 
 import java.time.LocalDate;
 
-import com.stephengilbane.hotel.DealType;
 import com.stephengilbane.hotel.ParserUtils;
+import com.stephengilbane.hotel.deals.DealType;
 
 /**
  * Class used to build test configuration input for HotelDealFinder.

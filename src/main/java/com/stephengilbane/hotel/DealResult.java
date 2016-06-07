@@ -2,6 +2,8 @@ package com.stephengilbane.hotel;
 
 import java.time.LocalDate;
 
+import com.stephengilbane.hotel.deals.Deal;
+
 /**
  * Result of search for a deal. Includes all information for display.
  */

@@ -12,13 +12,13 @@ import org.junit.runner.RunWith;
 import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.stephengilbane.hotel.Deal;
 import com.stephengilbane.hotel.DealResult;
-import com.stephengilbane.hotel.DealType;
 import com.stephengilbane.hotel.Hotel;
 import com.stephengilbane.hotel.HotelDealFinder;
 import com.stephengilbane.hotel.HotelDealFinderApplication;
 import com.stephengilbane.hotel.HotelDealParser;
+import com.stephengilbane.hotel.deals.Deal;
+import com.stephengilbane.hotel.deals.DealType;
 
 /**
  * Unit tests for HotelDealFinder application.

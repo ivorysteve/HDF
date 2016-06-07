@@ -63,5 +63,4 @@ The input to your application will be the path to the deal file, hotel name, che
 * Dates:  All date values are not adjusted for time zones. For this application, the assumption is that any date value applies to the time zone of the hotel.
 * Logging: All logging messages that are currently directed to System.out should be changed to use a standard logging package such as **Log4j** in the production code.
 * Concurrency:  There is an assumption throughout that only one thread is configuring and using a given HotelDealFinder instance. No attempt has been made to synchronize usage by multiple threads.
-* Organization: The **Deal** classes probably should have their own sub-package.
 * There could be more testing of config input (e.g., whether start date precedes end date, whether rates and values are negative, etc.).
