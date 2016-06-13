@@ -27,6 +27,9 @@ extends Deal
     /**
      * Calculate the value in monetary units that a customer would pay after
      * applying this deal for this hotel.
+     * @param ratePerNight Monetary units normally charged per night at this hotel.
+     * @param stayLength number of nights of the requested stay.
+     * @return monetary units charged for the stay including discount.
      */
     @Override
     public int calculateFinalValue(int ratePerNight, int stayLength)

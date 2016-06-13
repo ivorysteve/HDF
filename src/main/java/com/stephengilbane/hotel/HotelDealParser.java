@@ -10,8 +10,6 @@ import java.io.InputStreamReader;
 import java.io.StringReader;
 import java.io.Reader;
 import java.time.LocalDate;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.StringTokenizer;
 
 import com.stephengilbane.hotel.deals.Deal;
@@ -32,7 +30,9 @@ import com.stephengilbane.hotel.deals.PercentRebateDeal;
  */
 public class HotelDealParser
 {
-
+    /**
+     * Constructor
+     */
     public HotelDealParser()
     {
         // Nothing to do.

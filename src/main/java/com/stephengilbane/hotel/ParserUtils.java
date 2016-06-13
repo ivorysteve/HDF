@@ -6,7 +6,7 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
 /**
- * Utility class for parsing and creating input strings.
+ * Utility class for parsing and validating input strings.
  * @author stephengilbane
  *
  */
@@ -50,6 +50,7 @@ public class ParserUtils
      * Given an input date, format it in the standard form for this application.
      * @param d Date to format
      * @return  Formatted string representing this date.
+     * @throws IllegalArgumentException if argument is null.
      */
     public static String formatDate(LocalDate d)
     {
@@ -66,9 +67,9 @@ public class ParserUtils
      * 
      * @param s Input string.
      * @param errorMessage Error message passed to exception.
+     * @return parsed integer value.
      * @throws IllegalArgumentException if argument is null, empty, blank, or
      *             not a number.
-     * @return parsed integer value.
      */
     public static int validateIntegerArg(String s, String errorMessage)
     {
@@ -92,8 +93,8 @@ public class ParserUtils
      * 
      * @param s Input string.
      * @param errorMessage Error message passed to exception.
-     * @throws IllegalArgumentException if argument is null, empty, or blank.
      * @return input string
+     * @throws IllegalArgumentException if argument is null, empty, or blank.
      */
     public static String validateStringArg(String s, String errorMessage)
     {
@@ -104,4 +105,6 @@ public class ParserUtils
         return s;
     }
 
+    // Class not instantiatable.
+    private ParserUtils() {}
 }
