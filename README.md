@@ -16,9 +16,9 @@ Gracefully handle input errors and provide informative feedback to the user
 Use Java, C++, C#, or Python for your solution. You may use common libraries, but make sure to include anything necessary to compile your solution.
 The types of deals are as follows:
 
- rebate: a straight discount off the total price of the stay
- rebate_3plus: a straight discount off the total price when the duration of stay is 3 nights or more
- pct: a percentage discount off the total price of the stay
+* __rebate__: a straight discount off the total price of the stay
+* __rebate_3plus__: a straight discount off the total price when the duration of stay is 3 nights or more
+* __pct__: a percentage discount off the total price of the stay
 
 The deals data file will be a comma-separated file (CSV) in the following format. You may assume the entire deal file fits in memory. 
 
