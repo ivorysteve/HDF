@@ -14,7 +14,7 @@ extends Deal
     /**
      * Constructor.
      * @param pTxt Promotional text to display to user.
-     * @param amt Amount of straight discount.
+     * @param amt Amount of straight discount.  Negative values result in a discount; positive values are a premium.
      * @param startDt Start date of discount.
      * @param endDt End date of discount.
      */
