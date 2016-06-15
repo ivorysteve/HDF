@@ -54,7 +54,10 @@ The input to your application will be the path to the deal file, hotel name, che
 ### Solution Notes
 
 * Build instructions (Maven): `mvn clean test`
-* Run instructions (Maven): `mvn spring-boot:run -Drun.arguments='./foo.csv,Hotel Foobar,2016-03-20,1'`
+* Run instructions (Maven): 
+  * `mvn spring-boot:run -Drun.arguments='./deals.csv,Hotel Foobar,2016-03-05,3'`
+  * `mvn spring-boot:run -Drun.arguments='./deals.csv,Hotel Foobar,2016-03-10,2'`
+  * `mvn spring-boot:run -Drun.arguments='./deals.csv,Hotel Foobar,2016-03-20,1'`
 * **Java 8** was used, mainly for the `java.time` package.
 * This used Spring Boot mainly to set the project up quickly.  There is nothing that uses Spring per se.
 * Generally, I tried to be as forgiving of input as possible. If any of the lines in the configuration file were invalid, the program behaves as if there is no deal at all,  rather than rejecting the entire file.
