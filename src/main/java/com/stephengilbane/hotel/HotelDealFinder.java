@@ -108,9 +108,9 @@ public class HotelDealFinder
     /**
      * MAIN
      * 
-     * Usage: HotelDealFinder <configFile> 
+     *    Usage: HotelDealFinder [configFile] [hotelName] [checkinDate]  [stayLengthInDays]
      * 
-     * @param args
+     * @param args runtime arguments.
      */
     public static void main(String[] args)
     {
@@ -119,7 +119,8 @@ public class HotelDealFinder
             System.out.println("Usage: HotelDealFinder [configFile] [hotelName] [checkinDate]  [stayLengthInDays]");
             return;
         }
-        // Parse commandline arguments
+        
+        // Parse commandline arguments. Throw exception if any are missing.
         String filename = ParserUtils.validateStringArg(args[0], "Filename containing hotel deals must be provided!");
         String hotelName = ParserUtils.validateStringArg(args[1], "Hotel name must be provided!");
         LocalDate checkInDate = ParserUtils.validateDateArg(args[2], "Invalid date format: should be " + ParserUtils.DATE_FORMAT);
